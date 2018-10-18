@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 MAINTAINER Jose Rodriguez <jrodriguezr@protonmail.com>
-LABEL "mbed-cli + GNU GCC ARM/embedded-6-branch revision 249437"
+LABEL mbed-cli + GNU GCC ARM/embedded-6-branch revision 249437
 
 ENV TZ=Europe/Madrid
 RUN echo "Europe/Madrid" > /etc/timezone && ln -s /usr/share/zoneinfo/Europe/Madrid /etc/localtime
